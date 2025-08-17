@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Sobral - Immersive Audio & Sound Post-Production</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .skill-bar-bg {
+            background-color: #e0e0e0;
+        }
+        .skill-bar {
+            background-color: #4a90e2;
+        }
+        /* Hide PT by default */
+        .lang-pt {
+            display: none;
+        }
+        .lang-en {
+            display: block;
+        }
+        .active-lang {
+            background-color: #4a90e2;
+            color: white;
+        }
+        .inactive-lang {
+            background-color: #e0e0e0;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="max-w-6xl mx-auto p-4 sm:p-8 bg-white shadow-2xl rounded-lg my-8">
+        <!-- Language Switcher -->
+        <div class="flex justify-end mb-6">
+            <button id="btn-en" class="px-4 py-2 rounded-l-md text-sm font-semibold transition-colors duration-300 active-lang">English (US)</button>
+            <button id="btn-pt" class="px-4 py-2 rounded-r-md text-sm font-semibold transition-colors duration-300 inactive-lang">Português (BR)</button>
+        </div>
+
+        <!-- Header -->
+        <header class="flex flex-col md:flex-row items-start md:items-center justify-between border-b-2 border-gray-200 pb-6 mb-8">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Alex Sobral</h1>
+                <h2 class="text-xl md:text-2xl font-light text-blue-600">
+                    <span class="lang-en">Immersive Audio & Sound Post-Production</span>
+                    <span class="lang-pt">Áudio Imersivo e Pós-Produção de Som</span>
+                </h2>
+            </div>
+            <div class="mt-4 md:mt-0 text-left md:text-right text-sm space-y-1">
+                <div class="flex items-center justify-start md:justify-end">
+                    <svg class="w-4 h-4 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <a href="mailto:sobral.freenat@gmail.com" class="hover:text-blue-600">sobral.freenat@gmail.com</a>
+                </div>
+                <div class="flex items-center justify-start md:justify-end">
+                    <svg class="w-4 h-4 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    <span>+55 (11) 96360-5811</span>
+                </div>
+                <div class="flex items-center justify-start md:justify-end">
+                    <svg class="w-4 h-4 mr-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <span>São Paulo, SP, Brazil</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <!-- Left Column -->
+            <aside class="lg:col-span-1">
+                <!-- Objective -->
+                <section>
+                    <h3 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">
+                        <span class="lang-en">Objective</span>
+                        <span class="lang-pt">Objetivo</span>
+                    </h3>
+                    <p class="text-gray-700">
+                        <span class="lang-en">Audio post-production specialist with extensive experience in audio-visual synchronization, seeking to apply over 20 years of expertise in sound design, mixing, and restoration to deliver projects with impeccable precision and quality in a challenging environment.</span>
+                        <span class="lang-pt">Especialista em pós-produção de áudio com vasta experiência em sincronização audiovisual, buscando aplicar mais de 20 anos de conhecimento em design de som, mixagem e restauração para entregar projetos com precisão e qualidade impecáveis em um ambiente desafiador.</span>
+                    </p>
+                </section>
+
+                <!-- Technical Skills -->
+                <section class="mt-8">
+                    <h3 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">
+                        <span class="lang-en">Technical Skills</span>
+                        <span class="lang-pt">Habilidades Técnicas</span>
+                    </h3>
+                    <div class="space-y-4">
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="font-semibold">DAW</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 96%"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Post-Production</span>
+                            <span class="lang-pt font-semibold">Pós-Produção</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Mixing</span>
+                            <span class="lang-pt font-semibold">Mixagem</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Recording</span>
+                            <span class="lang-pt font-semibold">Gravação</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">AV Sync</span>
+                            <span class="lang-pt font-semibold">Sincronização AV</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Video Editing</span>
+                            <span class="lang-pt font-semibold">Edição de Vídeo</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Business</span>
+                            <span class="lang-pt font-semibold">Negócios</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Soft Skills -->
+                <section class="mt-8">
+                    <h3 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">
+                        <span class="lang-en">Social Skills</span>
+                        <span class="lang-pt">Habilidades Sociais</span>
+                    </h3>
+                    <div class="space-y-4">
+                         <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Communication</span>
+                            <span class="lang-pt font-semibold">Comunicação</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                         <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Leadership</span>
+                            <span class="lang-pt font-semibold">Liderança</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 96%"></div>
+                            </div>
+                        </div>
+                         <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Teamwork</span>
+                            <span class="lang-pt font-semibold">Trabalho em Equipe</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 97%"></div>
+                            </div>
+                        </div>
+                         <!-- Skill Item -->
+                        <div>
+                            <span class="lang-en font-semibold">Problem-solving</span>
+                            <span class="lang-pt font-semibold">Resolução de Problemas</span>
+                            <div class="w-full skill-bar-bg rounded-full h-2.5 mt-1">
+                                <div class="skill-bar h-2.5 rounded-full" style="width: 97%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="mt-8">
+                    <h3 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">
+                        <span class="lang-en">Education</span>
+                        <span class="lang-pt">Educação</span>
+                    </h3>
+                    <div>
+                        <p class="font-semibold">
+                            <span class="lang-en">Autodidact</span>
+                            <span class="lang-pt">Autodidata</span>
+                        </p>
+                        <p class="text-gray-600">
+                            <span class="lang-en">Practical Audio Engineer</span>
+                            <span class="lang-pt">Engenheiro de Áudio Prático</span>
+                        </p>
+                        <p class="text-sm text-gray-500">1993 - 2023</p>
+                    </div>
+                </section>
+                
+                <!-- Languages -->
+                <section class="mt-8">
+                    <h3 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-4">
+                        <span class="lang-en">Languages</span>
+                        <span class="lang-pt">Idiomas</span>
+                    </h3>
+                    <div>
+                        <p class="font-semibold">
+                            <span class="lang-en">Portuguese (Native)</span>
+                            <span class="lang-pt">Português (Nativo)</span>
+                        </p>
+                        <p class="font-semibold mt-2">
+                            <span class="lang-en">English (Advanced - B2/C1)</span>
+                            <span class="lang-pt">Inglês (Avançado - B2/C1)</span>
+                        </p>
+                    </div>
+                </section>
+
+            </aside>
+
+            <!-- Right Column -->
+            <div class="lg:col-span-2">
+                <section>
+                    <h3 class="text-2xl font-bold border-b-2 border-blue-500 pb-2 mb-6">
+                        <span class="lang-en">Professional Experience</span>
+                        <span class="lang-pt">Experiência Profissional</span>
+                    </h3>
+                    <div class="space-y-8">
+                        <!-- Job Item -->
+                        <div class="relative pl-6 border-l-2 border-gray-300">
+                            <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-500 text-sm">2015 - 2023</p>
+                            <h4 class="text-xl font-semibold">Freenatwork Solutions</h4>
+                            <h5 class="font-medium text-gray-700">
+                                <span class="lang-en">Immersive Audio and XR Consultant</span>
+                                <span class="lang-pt">Consultor de Áudio Imersivo e XR</span>
+                            </h5>
+                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1">
+                                <li class="lang-en">Immersive Audio Advisor for a US-based startup.</li>
+                                <li class="lang-pt">Consultor de áudio imersivo para uma startup sediada nos EUA.</li>
+                                <li class="lang-en">Developed a proprietary Immersive Audio engine in the Unity Game Engine.</li>
+                                <li class="lang-pt">Desenvolvimento de um motor de áudio imersivo proprietário na Unity Game Engine.</li>
+                            </ul>
+                        </div>
+                        <!-- Job Item -->
+                        <div class="relative pl-6 border-l-2 border-gray-300">
+                            <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-500 text-sm">2011 - 2015</p>
+                            <h4 class="text-xl font-semibold">Dolby Laboratories</h4>
+                            <h5 class="font-medium text-gray-700">
+                                <span class="lang-en">Field Applications Engineering Specialist</span>
+                                <span class="lang-pt">Especialista em Engenharia de Aplicações de Campo</span>
+                            </h5>
+                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1">
+                                <li class="lang-en">Coordinated Sound Design and provided guidelines for the first Dolby Trailer from Brazil.</li>
+                                <li class="lang-pt">Coordenação de Sound Design e diretrizes para o primeiro trailer da Dolby no Brasil.</li>
+                                <li class="lang-en">Designed and assembled the first Dolby Lab in Latin America.</li>
+                                <li class="lang-pt">Projeto e montagem do primeiro laboratório da Dolby na América Latina.</li>
+                            </ul>
+                        </div>
+                        <!-- Job Item -->
+                        <div class="relative pl-6 border-l-2 border-gray-300">
+                            <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-500 text-sm">2004 - 2011</p>
+                            <h4 class="text-xl font-semibold">Estúdio JLS</h4>
+                            <h5 class="font-medium text-gray-700">
+                                <span class="lang-en">Sound Restoration Specialist (Awarded)</span>
+                                <span class="lang-pt">Especialista em Restauração de Som (Premiado)</span>
+                            </h5>
+                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1">
+                                <li class="lang-en">Restored more than 100 titles for special projects.</li>
+                                <li class="lang-pt">Mais de 100 títulos restaurados para projetos especiais.</li>
+                                <li class="lang-en">Designed, assembled, and operated restoration and synchronization systems.</li>
+                                <li class="lang-pt">Projeto, montagem e operação de sistemas de restauração e sincronização.</li>
+                            </ul>
+                        </div>
+                        <!-- Job Item -->
+                        <div class="relative pl-6 border-l-2 border-gray-300">
+                            <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-500 text-sm">2001 - 2004</p>
+                            <h4 class="text-xl font-semibold">Digiarte Audio Services</h4>
+                            <h5 class="font-medium text-gray-700">
+                                <span class="lang-en">Post-Production Audio Coordinator</span>
+                                <span class="lang-pt">Coordenador de Pós-Produção de Áudio</span>
+                            </h5>
+                            <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1">
+                                <li class="lang-en">Handled Post-Production, sound design, music coordination, and editing (music, dialog, ADR) for DVDs and TV Series.</li>
+                                <li class="lang-pt">Pós-produção, sound design, coordenação musical e edição (música, diálogo, ADR) para DVDs e séries de TV.</li>
+                                <li class="lang-en">Designed and assembled an Audio Post-Production Suite.</li>
+                                <li class="lang-pt">Projeto e montagem de suíte de pós-produção de áudio.</li>
+                            </ul>
+                        </div>
+                        <!-- Job Item -->
+                        <div class="relative pl-6 border-l-2 border-gray-300">
+                            <div class="absolute w-4 h-4 bg-blue-500 rounded-full -left-2 top-1"></div>
+                            <p class="text-gray-500 text-sm">1997 - 2001</p>
+                            <h4 class="text-xl font-semibold">Cia de Audio Mastering</h4>
+                            <h5 class="font-medium text-gray-700">
+                                <span class="lang-en">Mastering and Post-Production Audio Engineer</span>
+                                <span class="lang-pt">Engenheiro de Masterização e Pós-Produção de Áudio</span>
+                            </h5>
+                             <ul class="mt-2 list-disc list-inside text-gray-600 space-y-1">
+                                <li class="lang-en">Mixed, mastered, and encoded several DVD titles, including Dolby Surround Albums.</li>
+                                <li class="lang-pt">Mixagem, masterização e codificação para vários títulos de DVD, incluindo álbuns em Dolby Surround.</li>
+                                <li class="lang-en">Mastered over 500 CDs.</li>
+                                <li class="lang-pt">Mais de 500 CDs masterizados.</li>
+                            </ul>
+                        </div>
+                         <!-- Add more job items following the same structure -->
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Get button and language elements
+        const btnEn = document.getElementById('btn-en');
+        const btnPt = document.getElementById('btn-pt');
+        const elementsEn = document.querySelectorAll('.lang-en');
+        const elementsPt = document.querySelectorAll('.lang-pt');
+
+        // Function to switch to English
+        function showEnglish() {
+            elementsEn.forEach(el => el.style.display = 'revert'); // 'revert' respects original display property (block, inline, etc.)
+            elementsPt.forEach(el => el.style.display = 'none');
+            btnEn.classList.add('active-lang');
+            btnEn.classList.remove('inactive-lang');
+            btnPt.classList.add('inactive-lang');
+            btnPt.classList.remove('active-lang');
+            document.documentElement.lang = 'en';
+        }
+
+        // Function to switch to Portuguese
+        function showPortuguese() {
+            elementsEn.forEach(el => el.style.display = 'none');
+            elementsPt.forEach(el => el.style.display = 'revert');
+            btnPt.classList.add('active-lang');
+            btnPt.classList.remove('inactive-lang');
+            btnEn.classList.add('inactive-lang');
+            btnEn.classList.remove('active-lang');
+            document.documentElement.lang = 'pt-BR';
+        }
+
+        // Add click event listeners
+        btnEn.addEventListener('click', showEnglish);
+        btnPt.addEventListener('click', showPortuguese);
+
+        // Set initial language (English is default by CSS)
+        document.addEventListener('DOMContentLoaded', () => {
+            showEnglish();
+        });
+    </script>
+
+</body>
+</html>
